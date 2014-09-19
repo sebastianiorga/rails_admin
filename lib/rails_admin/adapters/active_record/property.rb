@@ -34,7 +34,7 @@ module RailsAdmin
         end
 
         def serial?
-          property.primary
+          name == :id
         end
 
         def association?
