@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 case ENV['RAILS_VERSION']
 when '4.0'
   gem 'rails', '~> 4.0.0'
+when '4.2.0.beta1'
+  gem 'rails', '4.2.0.beta1'
 else
   gem 'rails', '~> 4.1'
 end
